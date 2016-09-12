@@ -1,0 +1,9 @@
+I have submitted the code in two formats, one is the intelliJ java project (HW5-IntelliJ-Project.rar) and other one is jar file (HW5.jar).
+
+To export the WBS tree to XML, you need to specify the export path in XMLImportingExporting.exportToXML function.
+
+Though Dr. Clyde did not ask us to include the main function, I have inculded it just for demostration purpose for using the library.
+
+I have also included Class Diagram and Sequence/Interaction diagram.
+
+Also, I have writtten 20+ test cases, which are in tests directory.

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="org.apache.commons.lang3.math.NumberUtils"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="com.google.common.primitives.Doubles"/>
+<fullyQualifiedTypeName name="org.jfree.chart.JFreeChart"/>
+<fullyQualifiedTypeName name="org.jfree.chart.ChartFactory"/>
+<fullyQualifiedTypeName name="org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset"/>
+<fullyQualifiedTypeName name="org.jfree.ui.ApplicationFrame"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="Importer"/>
+<fullyQualifiedTypeName name="MovieInfo"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.util.TreeMap"/>
+<fullyQualifiedTypeName name="com.google.common.collect.Ordering"/>
+<fullyQualifiedTypeName name="com.google.common.base.Functions"/>
+<fullyQualifiedTypeName name="org.jfree.ui.RefineryUtilities"/>
+<fullyQualifiedTypeName name="com.google.common.collect.Iterables"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.apache.commons.math3.stat.descriptive.moment.Mean"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="org.apache.commons.math3.stat.descriptive.DescriptiveStatistics"/>
+<fullyQualifiedTypeName name="com.google.common.primitives.Longs"/>
+<fullyQualifiedTypeName name="org.apache.commons.math3.stat.descriptive.rank.Median"/>
+<fullyQualifiedTypeName name="javax.rmi.CORBA.Util"/>
+<fullyQualifiedTypeName name="org.apache.commons.math3.stat.correlation.PearsonsCorrelation"/>
+<fullyQualifiedTypeName name="org.apache.commons.math3.ml.distance.EuclideanDistance"/>
+<fullyQualifiedTypeName name="Jama.Matrix"/>
+<fullyQualifiedTypeName name="CosineSimilarity"/>
+<fullyQualifiedTypeName name="cern.colt.matrix.impl.DenseDoubleMatrix1D"/>
+<fullyQualifiedTypeName name="cern.colt.matrix.DoubleMatrix1D"/>
+<fullyQualifiedTypeName name="net.sf.javaml.utils.ArrayUtils"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="Utilities"/>
+</qualifiedTypeNameHistroy>

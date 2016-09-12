@@ -1,0 +1,9 @@
+1. Since the sample had 319 values, I have removed last 63 values to make the sample size in power of 2, i.e. 256 values.
+
+2. Because of the reduced sample size, there may be discrepancies in the answers of the problems.
+
+3. For the second problem, I have answered the question in the code comments of TemperatureAnalysis.java file.
+
+4. To run either of the problems in eclipse IDE, click on the package (problem1, problem2,) under src and then click 'Run'.
+
+5. If any of my answers is unclear, please contact me at: aditya.tech07@gmail.com

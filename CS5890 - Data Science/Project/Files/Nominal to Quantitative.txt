@@ -1,0 +1,11 @@
+G = 1
+NC17 = 2
+Not Rated = 3
+Open = 4
+PG = 5
+PG-13 = 6
+R = 7
+Blank = 8
+
+
+Fox = 1

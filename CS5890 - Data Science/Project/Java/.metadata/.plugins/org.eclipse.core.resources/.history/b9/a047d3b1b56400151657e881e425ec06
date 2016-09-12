@@ -1,0 +1,348 @@
+import java.awt.Font;
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+
+import org.apache.commons.math3.ml.distance.EuclideanDistance;
+import org.apache.commons.math3.stat.correlation.PearsonsCorrelation;
+import org.jfree.chart.ChartPanel;
+import org.jfree.chart.JFreeChart;
+import org.jfree.chart.axis.CategoryAxis;
+import org.jfree.chart.axis.NumberAxis;
+import org.jfree.chart.labels.BoxAndWhiskerToolTipGenerator;
+import org.jfree.chart.plot.CategoryPlot;
+import org.jfree.chart.renderer.category.BoxAndWhiskerRenderer;
+import org.jfree.data.statistics.BoxAndWhiskerCategoryDataset;
+import org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset;
+import org.jfree.ui.ApplicationFrame;
+import org.jfree.ui.RefineryUtilities;
+
+import com.google.common.primitives.Doubles;
+
+import cern.colt.matrix.DoubleMatrix1D;
+import cern.colt.matrix.impl.DenseDoubleMatrix1D;
+import net.sf.javaml.utils.ArrayUtils;
+
+public class Starter extends ApplicationFrame {
+
+	public Starter(String title) {
+		super(title);
+		// TODO Auto-generated constructor stub
+	}
+
+	/*private static final double serialVersionUID = -553152221777775674L;
+
+	public Starter(String title) {
+		super(title);
+		BoxAndWhiskerCategoryDataset dataset = createSampleDataset();
+		final CategoryAxis xAxis = new CategoryAxis("");
+		final NumberAxis yAxis = new NumberAxis("Worldwide Gross in USD");
+		yAxis.setAutoRangeIncludesZero(false);
+		final BoxAndWhiskerRenderer renderer = new BoxAndWhiskerRenderer();
+		renderer.setFillBox(true);
+		renderer.setToolTipGenerator(new BoxAndWhiskerToolTipGenerator());
+		renderer.setMeanVisible(false);
+		final CategoryPlot plot = new CategoryPlot(dataset, xAxis, yAxis, renderer);
+
+		final JFreeChart chart = new JFreeChart("Worldwide Gross for Top 5 Distributors",
+				new Font("SansSerif", Font.BOLD, 14), plot, true);
+		final ChartPanel chartPanel = new ChartPanel(chart);
+		chartPanel.setPreferredSize(new java.awt.Dimension(900, 540));
+		setContentPane(chartPanel);
+
+	}
+
+	BoxAndWhiskerCategoryDataset createSampleDataset() {
+
+		ArrayList<MovieInfo> listMoviesInfo = Importer.readCsvToMovieInfo();
+
+		ArrayList<Double> listWorldWideGross = new ArrayList<>();
+
+		for (int i = 0; i < listMoviesInfo.size(); i++) {
+			double grossValue = listMoviesInfo.get(i).getWorldwideGross();
+			if (grossValue != -1 && grossValue > 4000 && grossValue < 900000000) {
+				listWorldWideGross.add(listMoviesInfo.get(i).getWorldwideGross());
+			}
+		}
+
+		double[] meanMedianMode = Utilities.meanMedianMode(listWorldWideGross);
+		System.out.println("Mean: " + meanMedianMode[0]);
+		System.out.println("Median: " + meanMedianMode[1]);
+		System.out.println("Mode: " + meanMedianMode[2]);
+		
+
+		Collections.sort(listWorldWideGross);
+		// Collections.reverse(copy);
+		for (int i = 0; i < listWorldWideGross.size(); i++) {
+			// System.out.println(listWorldWideGross.get(i));
+		}
+
+		Map<String, Integer> wordCount = new HashMap<>();
+		for (MovieInfo m : listMoviesInfo) {
+			String director = m.getDistributor();
+			if (!director.equals("NA")) {
+				if (wordCount.containsKey(director)) {
+					wordCount.put(director, wordCount.get(director) + 1);
+				} else {
+					wordCount.put(director, 1);
+				}
+			}
+		}
+		wordCount = Utilities.sortByValue(wordCount);
+
+		ArrayList<String> top5Distributors = new ArrayList<>();
+		List list = new ArrayList(wordCount.keySet());
+		for (int i = 0; i < 5; i++) {
+			// top5Distributors.add(list);
+		}
+
+		int i = 0;
+		for (Entry<String, Integer> entry : wordCount.entrySet()) {
+			if (i >= 5)
+				break;
+			top5Distributors.add(entry.getKey());
+			i++;
+		}
+
+		for (String s : top5Distributors) {
+			System.out.println(s);
+		}
+
+		ArrayList<Double> rank1Distributer = new ArrayList<>();
+		for (int j = 0; j < listMoviesInfo.size(); j++) {
+			if (listMoviesInfo.get(j).getDistributor().equals(top5Distributors.get(0))) {
+				rank1Distributer.add(listMoviesInfo.get(j).getWorldwideGross());
+			}
+		}
+
+		ArrayList<Double> rank2Distributer = new ArrayList<>();
+		for (int j = 0; j < listMoviesInfo.size(); j++) {
+			if (listMoviesInfo.get(j).getDistributor().equals(top5Distributors.get(1))) {
+				rank2Distributer.add(listMoviesInfo.get(j).getWorldwideGross());
+			}
+		}
+
+		ArrayList<Double> rank3Distributer = new ArrayList<>();
+		for (int j = 0; j < listMoviesInfo.size(); j++) {
+			if (listMoviesInfo.get(j).getDistributor().equals(top5Distributors.get(2))) {
+				rank3Distributer.add(listMoviesInfo.get(j).getWorldwideGross());
+			}
+		}
+
+		ArrayList<Double> rank4Distributer = new ArrayList<>();
+		for (int j = 0; j < listMoviesInfo.size(); j++) {
+			if (listMoviesInfo.get(j).getDistributor().equals(top5Distributors.get(3))) {
+				rank4Distributer.add(listMoviesInfo.get(j).getWorldwideGross());
+			}
+		}
+
+		ArrayList<Double> rank5Distributer = new ArrayList<>();
+		for (int j = 0; j < listMoviesInfo.size(); j++) {
+			if (listMoviesInfo.get(j).getDistributor().equals(top5Distributors.get(4))) {
+				rank5Distributer.add(listMoviesInfo.get(j).getWorldwideGross());
+			}
+		}
+
+		
+		 * for (Entry<String, Integer> entry : wordCount.entrySet()) {
+		 * System.out.println(entry.getKey() + " ----> " + entry.getValue()); }
+		 
+
+		DefaultBoxAndWhiskerCategoryDataset dataset = new DefaultBoxAndWhiskerCategoryDataset();
+
+		// dataset.add(listWorldWideGross, "For All Movies", "");
+		dataset.add(rank1Distributer, top5Distributors.get(0), "");
+		dataset.add(rank2Distributer, top5Distributors.get(1), "");
+		dataset.add(rank3Distributer, top5Distributors.get(2), "");
+		dataset.add(rank4Distributer, top5Distributors.get(3), "");
+		dataset.add(rank5Distributer, top5Distributors.get(4), "");
+
+		return dataset;
+
+	}*/
+
+	
+
+	public static void main(final String[] args) {
+		
+		/*final Starter demo = new Starter("");
+		demo.pack();
+		RefineryUtilities.centerFrameOnScreen(demo);
+		demo.setVisible(true);*/
+		
+		//dvdSalesPearsonsCorrelation();
+		
+		q3_3();
+		//normalizetest();
+		
+	}
+	
+	
+	/*static void normalizetest() {
+		ArrayList<MovieInfo> lMoIn = Importer.readCsvToMovieInfo();
+		ArrayList<Double> listDvdSales = new ArrayList<>();
+		for (int i = 0; i < lMoIn.size(); i++) {
+			double dvdSaleUsd = lMoIn.get(i).getImdbVotes();
+			listDvdSales.add(dvdSaleUsd);
+		}
+	}*/
+	
+	
+	static void q3_3() {
+		
+		ArrayList<MovieInfo> lMoIn = Importer.readCsvToMovieInfo();
+		
+		//Utilities.normalize(lMoIn);
+
+		ArrayList<Double> listDvdSales = new ArrayList<>();
+		ArrayList<Double> listUsGross =  new ArrayList<>();
+		ArrayList<Double> listWorldGross =  new ArrayList<>();
+
+		EuclideanDistance ed = new EuclideanDistance();
+		ArrayList<String> testDistance = new ArrayList<>();
+		
+		double selectedMppa = 0;
+		double selectedRunningTime = 0;
+		double selectedDistributor = 0;
+		double selectedSource = 0;
+		double selectedMajorGenre = 0;		
+		
+		double selectedUsGross = 0;
+		double selectedWorldwideGross = 0;
+		double selecteddvdSales = 0;
+		
+		double selectedImdbrating = 0;
+		double selectedRottenRating = 0;
+		double selectedImdbVotes = 0;
+		
+		String selectedTitle = "N/A";
+		
+		for (int i = 0; i < lMoIn.size(); i++) {
+			if(lMoIn.get(i).getTitle().equalsIgnoreCase("The Shawshank Redemption")) {
+				
+				selectedTitle = lMoIn.get(i).getTitle();
+				
+				selectedMppa = lMoIn.get(i).getMppaRatingNormz();
+				selectedRunningTime = lMoIn.get(i).getRunningTimeNormz();
+				selectedDistributor = lMoIn.get(i).getDistributorNormz();
+				selectedSource = lMoIn.get(i).getSourceNormz();
+				selectedMajorGenre = lMoIn.get(i).getMajorGenreNormz();
+				
+				selectedUsGross = lMoIn.get(i).getUsGrossNormz();
+				selectedWorldwideGross = lMoIn.get(i).getWorldwideGrossNormz();
+				selecteddvdSales = lMoIn.get(i).getUsDvdSalesNormz();
+				
+				selectedImdbrating = lMoIn.get(i).getImdbRatingNormz();
+				selectedRottenRating = lMoIn.get(i).getRottenTomatoRatingNormz();
+				selectedImdbVotes = lMoIn.get(i).getImdbVotesNormz();
+			}
+		}
+		
+		System.out.println("selectedTitle: " + selectedTitle);
+		
+		System.out.println("selectedMppa: " + selectedMppa);
+		System.out.println("selectedRunningTime: " + selectedRunningTime);
+		System.out.println("selectedDistributor: " + selectedDistributor);
+		System.out.println("selectedSource: " + selectedSource);
+		System.out.println("selectedMajorGenre: " + selectedMajorGenre);
+		
+		/*System.out.println("selectedUsGross: " + selectedUsGross);
+		System.out.println("selectedWorldwideGross: " + selectedWorldwideGross);
+		System.out.println("selecteddvdSales: " + selecteddvdSales);*/
+		
+		/*System.out.println("selectedImdbrating: " + selectedImdbrating);
+		System.out.println("selectedRottenRating: " + selectedRottenRating);
+		System.out.println("selectedImdbVotes: " + selectedImdbVotes);*/
+		
+		
+		for (int i = 0; i < lMoIn.size(); i++) {
+			double imdbVotesNor = lMoIn.get(i).getImdbVotesNormz();
+			double imdbRatingNor = lMoIn.get(i).getImdbRatingNormz();
+			double rottenRatingNor = lMoIn.get(i).getRottenTomatoRatingNormz();
+			
+			double usGrossNor = lMoIn.get(i).getUsGrossNormz();
+			double worldGrossNor = lMoIn.get(i).getWorldwideGrossNormz();
+			double dvdSaleUsdNor = lMoIn.get(i).getUsDvdSalesNormz();
+			
+			double mppaRatingNor = lMoIn.get(i).getMppaRatingNormz();
+			double runningTimeNor = lMoIn.get(i).getRunningTimeNormz();
+			double distributorNor = lMoIn.get(i).getDistributorNormz();
+			double sourceNor = lMoIn.get(i).getSourceNormz();
+			double majorGenreNor = lMoIn.get(i).getMajorGenreNormz();
+					
+			
+			//System.out.println("Title: " + lMoIn.get(i).getTitle() + " | worldGrossNor: " + worldGrossNor + "  |  " + "usGrossNor: " + usGrossNor);
+			
+			////2. Votes
+			if(mppaRatingNor >= 0 && runningTimeNor >= 0 && distributorNor >= 0 && sourceNor >= 0 && majorGenreNor >= 0
+					&& usGrossNor >= 0 && worldGrossNor >= 0 && dvdSaleUsdNor >= 0) {
+				
+				//1. Movie Info
+				//double[] currentMovie = {selectedMppa, selectedRunningTime, selectedDistributor, selectedSource,  selectedMajorGenre};
+				//double[] movie = {mppaRatingNor, runningTimeNor, distributorNor, sourceNor, majorGenreNor};
+				
+				//1.
+				//testDistance.add(ed.compute(currentMovie, movie) + " : " + lMoIn.get(i).getTitle());
+				//testDistance.add(Math.abs(currentMovie[0] - movie[0]) + Math.abs(currentMovie[1] - movie[1]) + Math.abs(currentMovie[2] - movie[2]) + Math.abs(currentMovie[3] - movie[3]) + Math.abs(currentMovie[4] - movie[4]) +  " : " + lMoIn.get(i).getTitle());
+				//testDistance.add(Utilities.cosineSimilarity(currentMovie, movie) + " : " + lMoIn.get(i).getTitle());
+				
+				
+				//2. Revenue
+				double[] currentMovie = {selectedUsGross, selectedWorldwideGross};
+				double[] movie = {usGrossNor, worldGrossNor};
+				
+				testDistance.add(ed.compute(currentMovie, movie) + " : " + lMoIn.get(i).getTitle());
+				//testDistance.add(Math.abs(currentMovie[0] - movie[0]) + Math.abs(currentMovie[1] - movie[1])) +  " : " + lMoIn.get(i).getTitle());
+				//testDistance.add(Utilities.cosineSimilarity(currentMovie, movie) + " : " + lMoIn.get(i).getTitle());
+				
+				//3. Rating
+				//double[] currentMovie = {selectedImdbVotes, selectedImdbrating, selectedRottenRating};
+				//double[] movie = {imdbVotesNor, imdbRatingNor, rottenRatingNor};
+				
+				//testDistance.add(ed.compute(currentMovie, movie) + " : " + lMoIn.get(i).getTitle());
+				//testDistance.add(Math.abs(currentMovie[0] - movie[0]) + Math.abs(currentMovie[1] - movie[1]) + Math.abs(currentMovie[2] - movie[2]) +  " : " + lMoIn.get(i).getTitle());
+				//testDistance.add(Utilities.cosineSimilarity(currentMovie, movie) + " : " + lMoIn.get(i).getTitle());
+			
+			}
+		}
+		
+		Collections.sort(testDistance);
+		Collections.reverse(testDistance);
+		
+		for(String s : testDistance) {
+			System.out.println(s);
+		}
+		
+	}
+	
+	
+	/*static void dvdSalesPearsonsCorrelation() {
+		
+		ArrayList<MovieInfo> listMoviesInfo = Importer.readCsvToMovieInfo();
+
+		ArrayList<Double> listDvdSales = new ArrayList<>();
+		ArrayList<Double> listProductionBudget =  new ArrayList<>();
+
+		for (int i = 0; i < listMoviesInfo.size(); i++) {
+			double dvdSaleUsd = listMoviesInfo.get(i).getUsDvdSales();
+			if (dvdSaleUsd != -1) {
+				listDvdSales.add(listMoviesInfo.get(i).getUsDvdSales());
+				listProductionBudget.add(listMoviesInfo.get(i).getProductionBudget());
+			}
+		}
+		
+		//PearsonsCorrelation ps = new PearsonsCorrelation();
+		//System.out.println(ps.correlation(Utilities.doubleArrayListToDoubleArray(listProductionBudget), Utilities.doubleArrayListToDoubleArray(listDvdSales)));
+		
+	}*/
+	
+	
+	
+	
+	
+
+}

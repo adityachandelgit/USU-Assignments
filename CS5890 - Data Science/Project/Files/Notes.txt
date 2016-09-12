@@ -1,0 +1,38 @@
+Python Practicum:
+
+1. GitHub
+2. Loading data in a variable and make a plot using some charting library.
+3. Coursera, edx or udacity
+4. Advantages and disadvantages in comparision to other languages
+5. Write code on notebook for easy reference.
+6. Learn zooming on IDE
+
+=(K2-MIN($K$2:$K$3128))/(MAX($K$2:$K$3128)-MIN($K$2:$K$3128))
+
+
+
+
+ 
+
+88179033.05
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+

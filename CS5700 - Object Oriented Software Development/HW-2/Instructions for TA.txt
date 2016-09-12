@@ -1,0 +1,13 @@
+Please follow the below steps to run the project sucessfully:
+
+1. This is a visual studio 2013 project. So import it accordingly.
+
+2. In the Program.cs file, pass the path of csv files for Groups, Racers and Sensors, to the Parsers.LoadGroupsFromCsv, Parsers.LoadRacersFromCsv and Parsers.LoadSensorsFromCsv functions.
+
+3. DataReciever.cs works on the port 14000.
+
+4. AFTER STARTING THE PROJECT, LOAD THE LIST OF RACERS USING "LOAD RACER" BUTTON.
+
+5. Unit Tests are in UnitTestHW2 project.
+
+6. UML diagram is in this zip file.

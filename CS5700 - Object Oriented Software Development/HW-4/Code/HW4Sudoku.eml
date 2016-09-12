@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/out/test/HW4Sudoku"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<testFolder url="file://$MODULE_DIR$/UnitTests"/>
+	</contentEntry>
+	<levels>
+		<level name="guava-18.0" value="project"/>
+		<level name="junit:junit:4.8.1" value="project"/>
+	</levels>
+</component>

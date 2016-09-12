@@ -1,0 +1,634 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 9200.16.0204.1543                                -->
+<workbook source-platform='win' version='9.2' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Tweets' inline='true' name='textscan.10erfoc1nnl4rx130fs7y099o8kw' version='9.2'>
+      <connection class='textscan' directory='G:/1.SnD/Studies/CS7930-SMM/Project/DataSets/airline-twitter-sentiment' filename='Tweets.csv' password='' server='' username=''>
+        <relation name='Tweets#csv' table='[Tweets#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='tweet_id' ordinal='0' />
+            <column datatype='string' name='airline_sentiment' ordinal='1' />
+            <column datatype='real' name='airline_sentiment_confidence' ordinal='2' />
+            <column datatype='string' name='negativereason' ordinal='3' />
+            <column datatype='real' name='negativereason_confidence' ordinal='4' />
+            <column datatype='string' name='airline' ordinal='5' />
+            <column datatype='string' name='airline_sentiment_gold' ordinal='6' />
+            <column datatype='string' name='name' ordinal='7' />
+            <column datatype='string' name='negativereason_gold' ordinal='8' />
+            <column datatype='integer' name='retweet_count' ordinal='9' />
+            <column datatype='string' name='text' ordinal='10' />
+            <column datatype='string' name='tweet_coord' ordinal='11' />
+            <column datatype='string' name='tweet_created' ordinal='12' />
+            <column datatype='string' name='tweet_location' ordinal='13' />
+            <column datatype='string' name='user_timezone' ordinal='14' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>tweet_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[tweet_id]</local-name>
+            <parent-name>[Tweets#csv]</parent-name>
+            <remote-alias>tweet_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>airline_sentiment</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[airline_sentiment]</local-name>
+            <parent-name>[Tweets#csv]</parent-name>
+            <remote-alias>airline_sentiment</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>airline_sentiment_confidence</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[airline_sentiment_confidence]</local-name>
+            <parent-name>[Tweets#csv]</parent-name>
+            <remote-alias>airline_sentiment_confidence</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;double&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>negativereason</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[negativereason]</local-name>
+            <parent-name>[Tweets#csv]</parent-name>
+            <remote-alias>negativereason</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>negativereason_confidence</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[negativereason_confidence]</local-name>
+            <parent-name>[Tweets#csv]</parent-name>
+            <remote-alias>negativereason_confidence</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;double&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>airline</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[airline]</local-name>
+            <parent-name>[Tweets#csv]</parent-name>
+            <remote-alias>airline</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>airline_sentiment_gold</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[airline_sentiment_gold]</local-name>
+            <parent-name>[Tweets#csv]</parent-name>
+            <remote-alias>airline_sentiment_gold</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[name]</local-name>
+            <parent-name>[Tweets#csv]</parent-name>
+            <remote-alias>name</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>negativereason_gold</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[negativereason_gold]</local-name>
+            <parent-name>[Tweets#csv]</parent-name>
+            <remote-alias>negativereason_gold</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>retweet_count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[retweet_count]</local-name>
+            <parent-name>[Tweets#csv]</parent-name>
+            <remote-alias>retweet_count</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;sint64&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>text</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[text]</local-name>
+            <parent-name>[Tweets#csv]</parent-name>
+            <remote-alias>text</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tweet_coord</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[tweet_coord]</local-name>
+            <parent-name>[Tweets#csv]</parent-name>
+            <remote-alias>tweet_coord</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tweet_created</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[tweet_created]</local-name>
+            <parent-name>[Tweets#csv]</parent-name>
+            <remote-alias>tweet_created</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tweet_location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[tweet_location]</local-name>
+            <parent-name>[Tweets#csv]</parent-name>
+            <remote-alias>tweet_location</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>user_timezone</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[user_timezone]</local-name>
+            <parent-name>[Tweets#csv]</parent-name>
+            <remote-alias>user_timezone</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteCollation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='DebugRemoteMetadata (compression)'>&quot;heap&quot;</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (size)'>4294967292</attribute>
+              <attribute datatype='integer' name='DebugRemoteMetadata (storagewidth)'>8</attribute>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;str&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Tweets#csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column caption='Airline' datatype='string' name='[airline]' role='dimension' type='nominal' />
+      <column caption='Airline Sentiment' datatype='string' name='[airline_sentiment]' role='dimension' type='nominal' />
+      <column caption='Airline Sentiment Confidence' datatype='real' name='[airline_sentiment_confidence]' role='measure' type='quantitative' />
+      <column caption='Airline Sentiment Gold' datatype='string' name='[airline_sentiment_gold]' role='dimension' type='nominal' />
+      <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+      <column caption='Negativereason' datatype='string' name='[negativereason]' role='dimension' type='nominal' />
+      <column caption='Negativereason Confidence' datatype='real' name='[negativereason_confidence]' role='measure' type='quantitative' />
+      <column caption='Negativereason Gold' datatype='string' name='[negativereason_gold]' role='dimension' type='nominal' />
+      <column caption='Retweet Count' datatype='integer' name='[retweet_count]' role='measure' type='quantitative' />
+      <column caption='Text' datatype='string' name='[text]' role='dimension' type='nominal' />
+      <column caption='Tweet Coord' datatype='string' name='[tweet_coord]' role='dimension' type='nominal' />
+      <column caption='Tweet Created - Split 1' datatype='datetime' datatype-customized='true' name='[tweet_created - Split 1]' role='dimension' type='ordinal' user:SplitFieldIndex='1' user:SplitFieldOrigin='[textscan.10erfoc1nnl4rx130fs7y099o8kw].[tweet_created]'>
+        <calculation class='tableau' formula='DATETIME(TRIM( SPLIT( [tweet_created], &quot;-0800&quot;, 1 ) ))' />
+      </column>
+      <column caption='Tweet Created' datatype='string' name='[tweet_created]' role='dimension' type='nominal' />
+      <column caption='Tweet Id' datatype='integer' name='[tweet_id]' role='dimension' type='ordinal' />
+      <column caption='Tweet Location' datatype='string' name='[tweet_location]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='User Timezone' datatype='string' name='[user_timezone]' role='dimension' type='nominal' />
+      <column-instance column='[airline_sentiment]' derivation='None' name='[none:airline_sentiment:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.612739' measure-ordering='alphabetic' measure-percentage='0.387261' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:airline_sentiment:nk]' type='palette'>
+            <map to='#2ca02c'>
+              <bucket>&quot;positive&quot;</bucket>
+            </map>
+            <map to='#bcbd22'>
+              <bucket>&quot;neutral&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;negative&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Time at which tweet was created</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources />
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='tab_base' value='true' />
+            <format attr='enabled' id='um_lcover' value='true' />
+            <format attr='enabled' id='tab_coastline' value='false' />
+            <format attr='enabled' id='pp2_line' value='false' />
+            <format attr='enabled' id='light_adm0_bnd' value='false' />
+            <format attr='enabled' id='light_adm0_lbl' value='false' />
+            <format attr='enabled' id='um_adm0_bnd' value='true' />
+            <format attr='enabled' id='um_adm0_lbl' value='true' />
+            <format attr='enabled' id='light_pp2_statebounds' value='false' />
+            <format attr='enabled' id='light_pp2_statelabels' value='false' />
+            <format attr='enabled' id='pp2_adminlabels' value='false' />
+            <format attr='enabled' id='pp2_statebounds' value='true' />
+            <format attr='enabled' id='pp2_statelabels' value='true' />
+            <format attr='enabled' id='countybounds' value='false' />
+            <format attr='enabled' id='countylabels' value='false' />
+            <format attr='enabled' id='zipbounds' value='false' />
+            <format attr='enabled' id='ziplabels' value='false' />
+            <format attr='enabled' id='tab_areabounds' value='false' />
+            <format attr='enabled' id='tab_arealabels' value='false' />
+            <format attr='enabled' id='tab_msabounds' value='false' />
+            <format attr='enabled' id='tab_msalabels' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-color' value='#d8504c' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='61250' id='1' name='Sheet 1' show-title='true' w='84200' x='0' y='0' />
+      </zones>
+    </dashboard>
+  </dashboards>
+  <windows source-height='32'>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1' />
+      </viewpoints>
+      <active id='1' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[textscan.10erfoc1nnl4rx130fs7y099o8kw].[cnt:Number of Records:qk]</field>
+            <field>[textscan.10erfoc1nnl4rx130fs7y099o8kw].[hr:tweet_created - Split 1:ok]</field>
+            <field>[textscan.10erfoc1nnl4rx130fs7y099o8kw].[none:airline:nk]</field>
+            <field>[textscan.10erfoc1nnl4rx130fs7y099o8kw].[none:name:nk]</field>
+            <field>[textscan.10erfoc1nnl4rx130fs7y099o8kw].[none:negativereason:nk]</field>
+            <field>[textscan.10erfoc1nnl4rx130fs7y099o8kw].[none:tweet_location:nk]</field>
+            <field>[textscan.10erfoc1nnl4rx130fs7y099o8kw].[yr:tweet_created - Split 1:ok]</field>
+            <field>[textscan.10erfoc1nnl4rx130fs7y099o8kw].[yr:tweet_created:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+      K2S4PnQVuydAKBwhGGxiuPcyXYe+xs72Vk6fv0RzvZtzw4tEZsZAg2PHjq3UdvbkL9ny9LNk
+      EvNcHR4h2NLCzFyY7u4uJiamCTbVky2qTI4MoAGbO5px17cQmepnLuvild86umpf33nvOM8/
+      e5TxoT40owVVhVgqS3RqkF2797GQzuOwQCqVRrG6aPRaKWpW8skIPbsO4HFaV7Z1rXeAJpeJ
+      eHIraqmIUsmQLVTw1DVg1vIoNjeZ+Dxml49yaoHG9k2MXL+AIbiHhuIo1s2/QU+jbWV7l67e
+      4NixY7zxxhsEAvXMTJrRzB6uX/wVBw8foXdgiu+9+jKnPnoPzdlOJTVLsaqwb+9TZMtw4Kkd
+      q2pb2tbPCPiDjJkNOBSV030zfOngdvrnsnx9f5CLvRM4BkbYv2szRayY1TxVk5Oh6xfZtucw
+      O7Z2LX9GCpw+fZFj33qRqxfOoxo0IlkFn0Vj+76nGb96hob93yJ05U0m8vXs6okSiiySCE3Q
+      0r2D0Hg/L33zVZy2W5+R5OwwN6MKNgq0NNUzPTtPd/cmxkbHKKZjZPHR2tZAuVSmpd5Nqqhh
+      quYw2uvYunnptyyWUpLTV6Nf/EKYxeZiz7Zm3j59gUImxURXC37P0kWIUiHD0NgkALHYLDFc
+      lEp5vP5GRkZGcNvvND596YhMq2YZ7O+nggV/QyP9cxk6/E5cbs/KmlcvXmKhpFBSDDiVO20F
+      sgsR+vtvMhuO4PF4+MVb7/DCN17h4qn3sLp8yy9AjouXblLv7sfe1IHK0jduNJHCU9eA02Za
+      GcQXnhwkXjBitnuZnprGF/AwMNBPo8vERzMF2n0mIM7UUAqHP0i1mOPAM9bPtjQGGBsdYT4S
+      oTngw2AwEI/HUao5kokE3vbtZHtvkDXYsQ300drZs2r/sosLpHIVGpobKeZSjExML73O0Qli
+      SiOl0iy+QJCxsWHsFhdaJUsoXsKQmqShzoMDGOy7QVlx0NbcgLJcW2YxzuRsGFCZHb6Bq3Mb
+      +dk5gsEAw4OjmOqXLsw1t3eSmRugb3AUg8GApmkYDAbmZ0bxtu+gIRwBm4OAb/mDW0zT39+H
+      anZgt9sJZwvYGpY+jKODvVgrkIjFuVaKQamE1WInMjuJYnHgsH72B1UDVy7w/PNPc/LDU7S2
+      tvLuL0/Q1dlGaCEHhgrpbIYGGwyMZ6hz+LGUk+BpWwnAJx74b4R9IjQ9QSJToqOtkdm5KI0N
+      fmKJNJs3d7Kw3Ix98uafP/U+FVuAZ5/eC0Ahn6e1vf1T8/x/cgjUwmIshN3uwGy1oSpm3GaN
+      ZEGjqd5LLBbD57YzFU7gWW4Kb28yNbXKyPAwLR2bCM1M43J7sFgsKCYz85F52oL1xNJFHJal
+      F7dcyOD0B0nOz+LwBPA5TKsCUMimmAzF6WptYHImRGNjI/MLizS4rVQMJtLZAu7bDi0sikau
+      asJkqK56DQKBABMjgyh2Hx4bRBcL1HluXbUsZNMoVhunPziOt3kH2zf5aWhpJzQ9hb+pDbOa
+      Z2ImhM/nQ1HMNDQ3klz1Oquc/uB9jN5mjhzYDUA+n6e5wU+qBFohi2qoUi5rmEwm8iUVp820
+      UltsZVvzUK3w/ol3CLTuYe+eHsBAPpujtclP//AYdQ1B7EqZksGGubrUAhjUElCBCmBzEvA5
+      Gervx+KqQytncbt95EsVKvkMbV09FNJxzK4A5UyMTAFmx25waTDEqy9/BQBFK2NxB3Dd1gKU
+      8mnyFQPz4QgtwXqKZZVccp633nmP5776Cg0uKygKFgVMFoVUropFK2CwelcOE6kU6B0c/eIB
+      EOJJJkMhhK5JAISuSQCErkkAhK5JAISuSQCErkkAhK5JAISuSQCErkkAhK5JAISuSQCErkkA
+      hK5JAISuSQCErkkAhK5JAISuSQCErkkAhK5JAISuSQCErkkAhK5JAISuSQCErkkAhK5JAISu
+      SQCErkkAhK5JAISuSQCErkkAhK5JAISuSQCErkkAhK5JAISuSQCErkkAhK5JAISuSQCErkkA
+      hK5JAISuSQCErkkAhK5JAISuSQCErkkAhK5JAISuSQCErkkAhK5JAISuSQCErkkAhK5JAISu
+      SQCErkkAhK5JAISuSQCErkkAhK5JAISuSQCErkkAhK5JAISuSQCErkkAhK5JAISuSQCErkkA
+      hK5JAISuSQCErv0LnbhZaGcu3ykAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='144' name='Sheet 1' width='174'>
+      iVBORw0KGgoAAAANSUhEUgAAAK4AAACQCAYAAACRfFAzAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAABmUlEQVR4nO3SQQ0AIBDAMMC/58MDH7KkVbDH9szMgpjzOwBeGJck45JkXJKMS5JxSTIu
+      ScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45Jk
+      XJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYl
+      ybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKM
+      S5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgk
+      GZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5Jx
+      STIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuScYlybgkGZck
+      45JkXJKMS5JxSTIuScYlybgkGZck45JkXJKMS5JxSTIuSRePYgUc7kJNEQAAAABJRU5ErkJg
+      gg==
+    </thumbnail>
+  </thumbnails>
+</workbook>

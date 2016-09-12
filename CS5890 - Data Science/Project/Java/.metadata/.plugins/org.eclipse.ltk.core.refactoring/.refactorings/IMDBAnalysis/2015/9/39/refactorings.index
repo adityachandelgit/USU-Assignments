@@ -1,0 +1,23 @@
+1442707353498	Rename local variable 'wrldGrossString'
+1442710173566	Rename field 'imdbrating'
+1442710188699	Rename local variable 'imdbrating'
+1442786365226	Rename method 'test'
+1442786374519	Rename method 'DvdSalesPearsonsCorrelation'
+1442817152567	Rename local variable 'testOp'
+1442817162657	Rename local variable 'testOp'
+1442977920872	Delete element
+1442977948507	Delete element
+1442980740734	Delete elements
+1442986177676	Rename local variable 'listMoviesInfo'
+1443154103784	Rename local variable 'theMatrix'
+1443156870105	Rename field 'imdbRatingNormz'
+1443156904873	Rename method 'getImdbRatingNormz'
+1443156917414	Rename method 'setImdbRatingNormz'
+1443156932977	Rename local variable 'imdbRatingNormz'
+1443159542001	Rename local variable 'max'
+1443159548541	Rename local variable 'min'
+1443303266392	Rename local variable 'currentMovieMppa'
+1443303294479	Rename local variable 'currentMovieRunningTime'
+1443303306367	Rename local variable 'currentMovieDistributor'
+1443303323485	Rename local variable 'currentMovieSource'
+1443303334539	Rename local variable 'currentMovieMajorGenre'

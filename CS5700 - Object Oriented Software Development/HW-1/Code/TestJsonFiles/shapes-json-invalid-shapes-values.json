@@ -1,0 +1,87 @@
+[
+      {
+        "name": "ellipse",
+		"category": "2",
+        "axis1": "0",
+        "axis2": "8"
+      },
+      {
+        "name": "circle",
+        "category": "3",
+        "radius": "7"
+      },
+      {
+        "name": "ellipse",
+        "category": "2",
+        "axis1": "2",
+        "axis2": "5"
+      },
+      {
+        "name": "circle",
+        "category": "3",
+        "radius": "0"
+      },
+      {
+        "name": "triangle",
+        "category": "6",
+        "sidea": "0",
+        "sideb": "0",
+        "sidec": "0"
+      },
+      {
+        "name": "triangle",
+        "category": "6",
+        "sidea": "8",
+        "sideb": "4",
+        "sidec": "10"
+      },
+      {
+        "name": "triangle",
+        "category": "6",
+        "sidea": "10",
+        "sideb": "10",
+        "sidec": "10"
+      },
+	  {
+        "name": "triangle",
+        "category": "6",
+        "sidea": "1",
+        "sideb": "1",
+        "sidec": "10"
+      },
+	  {
+        "name": "triangle",
+        "category": "6",
+        "sidea": "4",
+        "sideb": "fefer",
+        "sidec": "!@#!@"
+      },
+      {
+        "name": "rectangle",
+        "category": "9",
+        "sidea": "!@sd",
+        "sideb": "7"
+      },
+      {
+        "name": "square",
+        "category": "10",
+        "side": "3"
+      }
+	  {
+        "name": "rectangle",
+        "category": "9",
+        "sidea": "3323xwex",
+        "sideb": "7"
+      },
+	  {
+        "name": "square",
+        "category": "10",
+        "side": "-123"
+      }
+	  {
+        "name": "square",
+        "category": "10",
+        "side": "qwdqwd"
+      }
+      
+    ]

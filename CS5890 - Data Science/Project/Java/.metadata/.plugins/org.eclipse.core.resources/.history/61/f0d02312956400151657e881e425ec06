@@ -1,0 +1,420 @@
+public class MovieInfo {
+	
+	private String title;
+	private double usGross;
+	private double usGrossNormz;
+	private double worldwideGross;
+	private double worldwideGrossNormz;
+	private double usDvdSales;
+	private double usDvdSalesNormz;
+	private double productionBudget;
+	private double productionBudgetNormz;
+	private String releaseDate;
+	private String mppaRating;
+	private double runningTime;
+	private String distributor;
+	private String source;
+	private String majorGenre;
+	private String creativeType;
+	private String director;
+	private double rottenTomatoRating;
+	private double rottenTomatoRatingNormz;
+	private double imdbRating;
+	private double imdbRatingNormz;
+	private double imdbVotes;
+	private double imdbVotesNormz;
+	
+	private double mppaRatingNormz;
+	private double runningTimeNormz;
+	private double distributorNormz;
+	private double sourceNormz;
+	private double majorGenreNormz;
+	
+	
+	
+	public MovieInfo(String title, double usGross, double usGrossNormz, double worldwideGross,
+			double worldwideGrossNormz, double usDvdSales, double usDvdSalesNormz, double productionBudget,
+			double productionBudgetNormz, String releaseDate, String mppaRating, double runningTime, String distributor,
+			String source, String majorGenre, String creativeType, String director, double rottenTomatoRating,
+			double rottenTomatoRatingNormz, double imdbRating, double imdbRatingNormz, double imdbVotes,
+			double imdbVotesNormz, double mppaRatingNormz, double runningTimeNormz, double distributorNormz,
+			double sourceNormz, double majorGenreNormz) {
+		super();
+		this.title = title;
+		this.usGross = usGross;
+		this.usGrossNormz = usGrossNormz;
+		this.worldwideGross = worldwideGross;
+		this.worldwideGrossNormz = worldwideGrossNormz;
+		this.usDvdSales = usDvdSales;
+		this.usDvdSalesNormz = usDvdSalesNormz;
+		this.productionBudget = productionBudget;
+		this.productionBudgetNormz = productionBudgetNormz;
+		this.releaseDate = releaseDate;
+		this.mppaRating = mppaRating;
+		this.runningTime = runningTime;
+		this.distributor = distributor;
+		this.source = source;
+		this.majorGenre = majorGenre;
+		this.creativeType = creativeType;
+		this.director = director;
+		this.rottenTomatoRating = rottenTomatoRating;
+		this.rottenTomatoRatingNormz = rottenTomatoRatingNormz;
+		this.imdbRating = imdbRating;
+		this.imdbRatingNormz = imdbRatingNormz;
+		this.imdbVotes = imdbVotes;
+		this.imdbVotesNormz = imdbVotesNormz;
+		this.mppaRatingNormz = mppaRatingNormz;
+		this.runningTimeNormz = runningTimeNormz;
+		this.distributorNormz = distributorNormz;
+		this.sourceNormz = sourceNormz;
+		this.majorGenreNormz = majorGenreNormz;
+	}
+
+
+
+	public String getTitle() {
+		return title;
+	}
+
+
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+
+
+	public double getUsGross() {
+		return usGross;
+	}
+
+
+
+	public void setUsGross(double usGross) {
+		this.usGross = usGross;
+	}
+
+
+
+	public double getUsGrossNormz() {
+		return usGrossNormz;
+	}
+
+
+
+	public void setUsGrossNormz(double usGrossNormz) {
+		this.usGrossNormz = usGrossNormz;
+	}
+
+
+
+	public double getWorldwideGross() {
+		return worldwideGross;
+	}
+
+
+
+	public void setWorldwideGross(double worldwideGross) {
+		this.worldwideGross = worldwideGross;
+	}
+
+
+
+	public double getWorldwideGrossNormz() {
+		return worldwideGrossNormz;
+	}
+
+
+
+	public void setWorldwideGrossNormz(double worldwideGrossNormz) {
+		this.worldwideGrossNormz = worldwideGrossNormz;
+	}
+
+
+
+	public double getUsDvdSales() {
+		return usDvdSales;
+	}
+
+
+
+	public void setUsDvdSales(double usDvdSales) {
+		this.usDvdSales = usDvdSales;
+	}
+
+
+
+	public double getUsDvdSalesNormz() {
+		return usDvdSalesNormz;
+	}
+
+
+
+	public void setUsDvdSalesNormz(double usDvdSalesNormz) {
+		this.usDvdSalesNormz = usDvdSalesNormz;
+	}
+
+
+
+	public double getProductionBudget() {
+		return productionBudget;
+	}
+
+
+
+	public void setProductionBudget(double productionBudget) {
+		this.productionBudget = productionBudget;
+	}
+
+
+
+	public double getProductionBudgetNormz() {
+		return productionBudgetNormz;
+	}
+
+
+
+	public void setProductionBudgetNormz(double productionBudgetNormz) {
+		this.productionBudgetNormz = productionBudgetNormz;
+	}
+
+
+
+	public String getReleaseDate() {
+		return releaseDate;
+	}
+
+
+
+	public void setReleaseDate(String releaseDate) {
+		this.releaseDate = releaseDate;
+	}
+
+
+
+	public String getMppaRating() {
+		return mppaRating;
+	}
+
+
+
+	public void setMppaRating(String mppaRating) {
+		this.mppaRating = mppaRating;
+	}
+
+
+
+	public double getRunningTime() {
+		return runningTime;
+	}
+
+
+
+	public void setRunningTime(double runningTime) {
+		this.runningTime = runningTime;
+	}
+
+
+
+	public String getDistributor() {
+		return distributor;
+	}
+
+
+
+	public void setDistributor(String distributor) {
+		this.distributor = distributor;
+	}
+
+
+
+	public String getSource() {
+		return source;
+	}
+
+
+
+	public void setSource(String source) {
+		this.source = source;
+	}
+
+
+
+	public String getMajorGenre() {
+		return majorGenre;
+	}
+
+
+
+	public void setMajorGenre(String majorGenre) {
+		this.majorGenre = majorGenre;
+	}
+
+
+
+	public String getCreativeType() {
+		return creativeType;
+	}
+
+
+
+	public void setCreativeType(String creativeType) {
+		this.creativeType = creativeType;
+	}
+
+
+
+	public String getDirector() {
+		return director;
+	}
+
+
+
+	public void setDirector(String director) {
+		this.director = director;
+	}
+
+
+
+	public double getRottenTomatoRating() {
+		return rottenTomatoRating;
+	}
+
+
+
+	public void setRottenTomatoRating(double rottenTomatoRating) {
+		this.rottenTomatoRating = rottenTomatoRating;
+	}
+
+
+
+	public double getRottenTomatoRatingNormz() {
+		return rottenTomatoRatingNormz;
+	}
+
+
+
+	public void setRottenTomatoRatingNormz(double rottenTomatoRatingNormz) {
+		this.rottenTomatoRatingNormz = rottenTomatoRatingNormz;
+	}
+
+
+
+	public double getImdbRating() {
+		return imdbRating;
+	}
+
+
+
+	public void setImdbRating(double imdbRating) {
+		this.imdbRating = imdbRating;
+	}
+
+
+
+	public double getImdbRatingNormz() {
+		return imdbRatingNormz;
+	}
+
+
+
+	public void setImdbRatingNormz(double imdbRatingNormz) {
+		this.imdbRatingNormz = imdbRatingNormz;
+	}
+
+
+
+	public double getImdbVotes() {
+		return imdbVotes;
+	}
+
+
+
+	public void setImdbVotes(double imdbVotes) {
+		this.imdbVotes = imdbVotes;
+	}
+
+
+
+	public double getImdbVotesNormz() {
+		return imdbVotesNormz;
+	}
+
+
+
+	public void setImdbVotesNormz(double imdbVotesNormz) {
+		this.imdbVotesNormz = imdbVotesNormz;
+	}
+
+
+
+	public double getMppaRatingNormz() {
+		return mppaRatingNormz;
+	}
+
+
+
+	public void setMppaRatingNormz(double mppaRatingNormz) {
+		this.mppaRatingNormz = mppaRatingNormz;
+	}
+
+
+
+	public double getRunningTimeNormz() {
+		return runningTimeNormz;
+	}
+
+
+
+	public void setRunningTimeNormz(double runningTimeNormz) {
+		this.runningTimeNormz = runningTimeNormz;
+	}
+
+
+
+	public double getDistributorNormz() {
+		return distributorNormz;
+	}
+
+
+
+	public void setDistributorNormz(double distributorNormz) {
+		this.distributorNormz = distributorNormz;
+	}
+
+
+
+	public double getSourceNormz() {
+		return sourceNormz;
+	}
+
+
+
+	public void setSourceNormz(double sourceNormz) {
+		this.sourceNormz = sourceNormz;
+	}
+
+
+
+	public double getMajorGenreNormz() {
+		return majorGenreNormz;
+	}
+
+
+
+	public void setMajorGenreNormz(double majorGenreNormz) {
+		this.majorGenreNormz = majorGenreNormz;
+	}
+
+	
+
+	
+	
+	
+
+	
+	
+	
+	
+
+}
