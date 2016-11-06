@@ -7,7 +7,6 @@ H = size(sample,1);
 W = size(sample,2);
 devX = 50;
 devY = 25;
-
 GLPFilter = zeros(H,W);
 midX = floor(H/2+1);
 midY = floor(W/2+1);
