@@ -1,0 +1,902 @@
+{
+	"contributors": null,
+	"quoted_status_id": 826252730389954560,
+	"text": "Donald Trump has fired acting US attorney general Sally Yates. Dana Boente will be her replacement. https://t.co/VYm1ZfeS80",
+	"is_quote_status": true,
+	"in_reply_to_status_id": null,
+	"in_reply_to_user_id": null,
+	"id": 826263500917846016,
+	"favorite_count": 0,
+	"source": "<a href=\"https://dlvrit.com/\" rel=\"nofollow\">dlvr.it</a>",
+	"truncated": false,
+	"retweeted": false,
+	"coordinates": {
+		"type": "Point",
+		"coordinates": [-79.37536382, 43.64842391]
+	},
+	"quoted_status": {
+		"contributors": null,
+		"truncated": false,
+		"text": ".@POTUS has named Dana Boente, US Attorney for the Eastern District of VA as Acting Attorney General.  Sally Yates has been relieved.",
+		"is_quote_status": false,
+		"in_reply_to_status_id": null,
+		"in_reply_to_user_id": null,
+		"id": 826252730389954560,
+		"favorite_count": 13990,
+		"entities": {
+			"symbols": [],
+			"user_mentions": [{
+					"indices": [1, 7],
+					"screen_name": "POTUS",
+					"id": 822215679726100480,
+					"name": "President Trump",
+					"id_str": "822215679726100480"
+				}
+			],
+			"hashtags": [],
+			"urls": []
+		},
+		"retweeted": false,
+		"coordinates": null,
+		"source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+		"in_reply_to_screen_name": null,
+		"id_str": "826252730389954560",
+		"retweet_count": 8248,
+		"metadata": {
+			"iso_language_code": "en",
+			"result_type": "recent"
+		},
+		"favorited": false,
+		"user": {
+			"follow_request_sent": null,
+			"has_extended_profile": false,
+			"profile_use_background_image": true,
+			"id": 818927131883356161,
+			"verified": true,
+			"translator_type": "none",
+			"profile_text_color": "333333",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/821768089620664322/foOy3QZy_normal.jpg",
+			"profile_sidebar_fill_color": "DDEEF6",
+			"entities": {
+				"url": {
+					"urls": [{
+							"indices": [0, 23],
+							"url": "https://t.co/wyOVgSLgBV",
+							"expanded_url": "http://www.WhiteHouse.gov",
+							"display_url": "WhiteHouse.gov"
+						}
+					]
+				},
+				"description": {
+					"urls": [{
+							"indices": [111, 134],
+							"url": "https://t.co/eVVzoBb3Zr",
+							"expanded_url": "http://wh.gov/privacy",
+							"display_url": "wh.gov/privacy"
+						}
+					]
+				}
+			},
+			"followers_count": 1422129,
+			"protected": false,
+			"location": "Washington, D.C.",
+			"default_profile_image": false,
+			"id_str": "818927131883356161",
+			"lang": "en",
+			"utc_offset": -28800,
+			"statuses_count": 35,
+			"description": "@WhiteHouse Press Secretary.       Proudly representing @POTUS Trump's Administration. Tweets may be archived: https://t.co/eVVzoBb3Zr.",
+			"friends_count": 6,
+			"profile_background_image_url_https": null,
+			"profile_link_color": "1DA1F2",
+			"profile_image_url": "http://pbs.twimg.com/profile_images/821768089620664322/foOy3QZy_normal.jpg",
+			"following": null,
+			"geo_enabled": false,
+			"profile_background_color": "F5F8FA",
+			"profile_banner_url": "https://pbs.twimg.com/profile_banners/818927131883356161/1484864750",
+			"profile_background_image_url": null,
+			"screen_name": "PressSec",
+			"is_translation_enabled": false,
+			"profile_background_tile": false,
+			"favourites_count": 4,
+			"name": "Sean Spicer",
+			"notifications": null,
+			"url": "https://t.co/wyOVgSLgBV",
+			"created_at": "Tue Jan 10 21:06:57 +0000 2017",
+			"contributors_enabled": false,
+			"time_zone": "Pacific Time (US & Canada)",
+			"profile_sidebar_border_color": "C0DEED",
+			"default_profile": true,
+			"is_translator": false,
+			"listed_count": 2130
+		},
+		"geo": null,
+		"in_reply_to_user_id_str": null,
+		"lang": "en",
+		"created_at": "Tue Jan 31 02:16:16 +0000 2017",
+		"in_reply_to_status_id_str": null,
+		"place": null
+	},
+	"entities": {
+		"symbols": [],
+		"user_mentions": [],
+		"hashtags": [],
+		"urls": [{
+				"indices": [100, 123],
+				"url": "https://t.co/VYm1ZfeS80",
+				"expanded_url": "https://twitter.com/PressSec/status/826252730389954560",
+				"display_url": "twitter.com/PressSec/statu\u2026"
+			}
+		]
+	},
+	"in_reply_to_screen_name": null,
+	"id_str": "826263500917846016",
+	"retweet_count": 0,
+	"metadata": {
+		"iso_language_code": "en",
+		"result_type": "recent"
+	},
+	"favorited": false,
+	"user": {
+		"follow_request_sent": null,
+		"has_extended_profile": false,
+		"profile_use_background_image": false,
+		"id": 53969028,
+		"verified": false,
+		"translator_type": "none",
+		"profile_text_color": "2A2C31",
+		"profile_image_url_https": "https://pbs.twimg.com/profile_images/542864129778671616/IrynYPQj_normal.png",
+		"profile_sidebar_fill_color": "FFFFFF",
+		"entities": {
+			"url": {
+				"urls": [{
+						"indices": [0, 22],
+						"url": "http://t.co/bPWF8l40Zm",
+						"expanded_url": "http://toronto.cityandpress.com/",
+						"display_url": "toronto.cityandpress.com"
+					}
+				]
+			},
+			"description": {
+				"urls": []
+			}
+		},
+		"followers_count": 4939,
+		"protected": false,
+		"location": "Toronto, ON",
+		"default_profile_image": false,
+		"id_str": "53969028",
+		"lang": "en",
+		"utc_offset": -18000,
+		"statuses_count": 275243,
+		"description": "Latest news from Toronto. Updates are frequent.",
+		"friends_count": 21,
+		"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+		"profile_link_color": "8A1C3B",
+		"profile_image_url": "http://pbs.twimg.com/profile_images/542864129778671616/IrynYPQj_normal.png",
+		"following": null,
+		"geo_enabled": true,
+		"profile_background_color": "FFFFFF",
+		"profile_banner_url": "https://pbs.twimg.com/profile_banners/53969028/1418263908",
+		"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+		"screen_name": "Toronto_CP",
+		"is_translation_enabled": false,
+		"profile_background_tile": false,
+		"favourites_count": 3,
+		"name": "Toronto Press",
+		"notifications": null,
+		"url": "http://t.co/bPWF8l40Zm",
+		"created_at": "Sun Jul 05 18:25:33 +0000 2009",
+		"contributors_enabled": false,
+		"time_zone": "Eastern Time (US & Canada)",
+		"profile_sidebar_border_color": "FFFFFF",
+		"default_profile": false,
+		"is_translator": false,
+		"listed_count": 262
+	},
+	"geo": {
+		"type": "Point",
+		"coordinates": [43.64842391, -79.37536382]
+	},
+	"in_reply_to_user_id_str": null,
+	"possibly_sensitive": false,
+	"lang": "en",
+	"created_at": "Tue Jan 31 02:59:04 +0000 2017",
+	"quoted_status_id_str": "826252730389954560",
+	"in_reply_to_status_id_str": null,
+	"place": {
+		"country_code": "CA",
+		"url": "https://api.twitter.com/1.1/geo/id/3797791ff9c0e4c6.json",
+		"country": "Canada",
+		"place_type": "city",
+		"bounding_box": {
+			"type": "Polygon",
+			"coordinates": [[[-79.639319, 43.403221], [-78.90582, 43.403221], [-78.90582, 43.855401], [-79.639319, 43.855401]]]
+		},
+		"contained_within": [],
+		"full_name": "Toronto, Ontario",
+		"attributes": {},
+		"id": "3797791ff9c0e4c6",
+		"name": "Toronto"
+	}
+}{
+	"contributors": null,
+	"truncated": false,
+	"text": "Donald Trump's expert on voter fraud registered in 3 states for US election https://t.co/zVn97LmJih",
+	"is_quote_status": false,
+	"in_reply_to_status_id": null,
+	"in_reply_to_user_id": null,
+	"id": 826284898327552002,
+	"favorite_count": 0,
+	"entities": {
+		"symbols": [],
+		"user_mentions": [],
+		"hashtags": [],
+		"urls": [{
+				"indices": [76, 99],
+				"url": "https://t.co/zVn97LmJih",
+				"expanded_url": "http://glbn.ca/zFt1FM",
+				"display_url": "glbn.ca/zFt1FM"
+			}
+		]
+	},
+	"retweeted": false,
+	"coordinates": {
+		"type": "Point",
+		"coordinates": [-73.57086325, 45.50644992]
+	},
+	"source": "<a href=\"https://dlvrit.com/\" rel=\"nofollow\">dlvr.it</a>",
+	"in_reply_to_screen_name": null,
+	"id_str": "826284898327552002",
+	"retweet_count": 0,
+	"metadata": {
+		"iso_language_code": "en",
+		"result_type": "recent"
+	},
+	"favorited": false,
+	"user": {
+		"follow_request_sent": null,
+		"has_extended_profile": false,
+		"profile_use_background_image": false,
+		"id": 55101795,
+		"verified": false,
+		"translator_type": "none",
+		"profile_text_color": "2A2C31",
+		"profile_image_url_https": "https://pbs.twimg.com/profile_images/690703616022216704/NZtwmVuk_normal.png",
+		"profile_sidebar_fill_color": "FFFFFF",
+		"entities": {
+			"url": {
+				"urls": [{
+						"indices": [0, 23],
+						"url": "https://t.co/ZF9da5Eyhp",
+						"expanded_url": "http://toplocalnow.com/canada/quebec/montreal",
+						"display_url": "toplocalnow.com/canada/quebec/\u2026"
+					}
+				]
+			},
+			"description": {
+				"urls": []
+			}
+		},
+		"followers_count": 3481,
+		"protected": false,
+		"location": "Montreal, QC",
+		"default_profile_image": false,
+		"id_str": "55101795",
+		"lang": "en",
+		"utc_offset": -18000,
+		"statuses_count": 141759,
+		"description": "Breaking news and weather updates from Montreal.",
+		"friends_count": 73,
+		"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+		"profile_link_color": "465AA5",
+		"profile_image_url": "http://pbs.twimg.com/profile_images/690703616022216704/NZtwmVuk_normal.png",
+		"following": null,
+		"geo_enabled": true,
+		"profile_background_color": "FFFFFF",
+		"profile_banner_url": "https://pbs.twimg.com/profile_banners/55101795/1453417400",
+		"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+		"screen_name": "MontrealCP",
+		"is_translation_enabled": false,
+		"profile_background_tile": false,
+		"favourites_count": 5,
+		"name": "Montreal Now",
+		"notifications": null,
+		"url": "https://t.co/ZF9da5Eyhp",
+		"created_at": "Thu Jul 09 01:41:46 +0000 2009",
+		"contributors_enabled": false,
+		"time_zone": "Eastern Time (US & Canada)",
+		"profile_sidebar_border_color": "FFFFFF",
+		"default_profile": false,
+		"is_translator": false,
+		"listed_count": 212
+	},
+	"geo": {
+		"type": "Point",
+		"coordinates": [45.50644992, -73.57086325]
+	},
+	"in_reply_to_user_id_str": null,
+	"possibly_sensitive": false,
+	"lang": "en",
+	"created_at": "Tue Jan 31 04:24:06 +0000 2017",
+	"in_reply_to_status_id_str": null,
+	"place": {
+		"country_code": "CA",
+		"url": "https://api.twitter.com/1.1/geo/id/36775d842cbec509.json",
+		"country": "Canada",
+		"place_type": "city",
+		"bounding_box": {
+			"type": "Polygon",
+			"coordinates": [[[-73.972965, 45.410095], [-73.473085, 45.410095], [-73.473085, 45.705566], [-73.972965, 45.705566]]]
+		},
+		"contained_within": [],
+		"full_name": "Montr\u00e9al, Qu\u00e9bec",
+		"attributes": {},
+		"id": "36775d842cbec509",
+		"name": "Montr\u00e9al"
+	}
+}{
+	"contributors": null,
+	"truncated": false,
+	"text": "I wanna hear someone else read Donald Trump's tweets out loud to him, no I wanna see it actually, &amp; hear it.",
+	"is_quote_status": false,
+	"in_reply_to_status_id": null,
+	"in_reply_to_user_id": null,
+	"id": 826281173844389893,
+	"favorite_count": 0,
+	"entities": {
+		"symbols": [],
+		"user_mentions": [],
+		"hashtags": [],
+		"urls": []
+	},
+	"retweeted": false,
+	"coordinates": {
+		"type": "Point",
+		"coordinates": [-73.9538459, 40.8036866]
+	},
+	"source": "<a href=\"http://ubersocial.com\" rel=\"nofollow\">UberSocial for Android</a>",
+	"in_reply_to_screen_name": null,
+	"id_str": "826281173844389893",
+	"retweet_count": 0,
+	"metadata": {
+		"iso_language_code": "en",
+		"result_type": "recent"
+	},
+	"favorited": false,
+	"user": {
+		"follow_request_sent": null,
+		"has_extended_profile": false,
+		"profile_use_background_image": true,
+		"id": 464827203,
+		"verified": false,
+		"translator_type": "none",
+		"profile_text_color": "A7394D",
+		"profile_image_url_https": "https://pbs.twimg.com/profile_images/822148476670713856/ldjgpRKS_normal.jpg",
+		"profile_sidebar_fill_color": "030516",
+		"entities": {
+			"description": {
+				"urls": []
+			}
+		},
+		"followers_count": 2983,
+		"protected": false,
+		"location": "",
+		"default_profile_image": false,
+		"id_str": "464827203",
+		"lang": "en",
+		"utc_offset": -21600,
+		"statuses_count": 72653,
+		"description": "",
+		"friends_count": 0,
+		"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/890274593/e6f06e21bbff6454f9f8790c16953e7b.jpeg",
+		"profile_link_color": "16818E",
+		"profile_image_url": "http://pbs.twimg.com/profile_images/822148476670713856/ldjgpRKS_normal.jpg",
+		"following": null,
+		"geo_enabled": true,
+		"profile_background_color": "03072D",
+		"profile_banner_url": "https://pbs.twimg.com/profile_banners/464827203/1484850464",
+		"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/890274593/e6f06e21bbff6454f9f8790c16953e7b.jpeg",
+		"screen_name": "MRS_TWITTEER",
+		"is_translation_enabled": false,
+		"profile_background_tile": true,
+		"favourites_count": 21444,
+		"name": "NAME",
+		"notifications": null,
+		"url": null,
+		"created_at": "Sun Jan 15 17:31:51 +0000 2012",
+		"contributors_enabled": false,
+		"time_zone": "Central Time (US & Canada)",
+		"profile_sidebar_border_color": "16818E",
+		"default_profile": false,
+		"is_translator": false,
+		"listed_count": 31
+	},
+	"geo": {
+		"type": "Point",
+		"coordinates": [40.8036866, -73.9538459]
+	},
+	"in_reply_to_user_id_str": null,
+	"lang": "en",
+	"created_at": "Tue Jan 31 04:09:18 +0000 2017",
+	"in_reply_to_status_id_str": null,
+	"place": {
+		"country_code": "US",
+		"url": "https://api.twitter.com/1.1/geo/id/01a9a39529b27f36.json",
+		"country": "United States",
+		"place_type": "city",
+		"bounding_box": {
+			"type": "Polygon",
+			"coordinates": [[[-74.026675, 40.683935], [-73.910408, 40.683935], [-73.910408, 40.877483], [-74.026675, 40.877483]]]
+		},
+		"contained_within": [],
+		"full_name": "Manhattan, NY",
+		"attributes": {},
+		"id": "01a9a39529b27f36",
+		"name": "Manhattan"
+	}
+}{
+	"contributors": null,
+	"truncated": false,
+	"text": "Dissent, defiance, &amp; protests over President Trump immigration policy. Donald J. Trump administration digs in\u2026 https://t.co/80ScdQ1rcN",
+	"is_quote_status": false,
+	"in_reply_to_status_id": null,
+	"in_reply_to_user_id": null,
+	"id": 826277724238999556,
+	"favorite_count": 0,
+	"entities": {
+		"symbols": [],
+		"user_mentions": [],
+		"hashtags": [],
+		"urls": [{
+				"indices": [115, 138],
+				"url": "https://t.co/80ScdQ1rcN",
+				"expanded_url": "http://toplocalnow.com/us/miami",
+				"display_url": "toplocalnow.com/us/miami"
+			}
+		]
+	},
+	"retweeted": false,
+	"coordinates": {
+		"type": "Point",
+		"coordinates": [-80.19240081, 25.78111669]
+	},
+	"source": "<a href=\"https://dlvrit.com/\" rel=\"nofollow\">dlvr.it</a>",
+	"in_reply_to_screen_name": null,
+	"id_str": "826277724238999556",
+	"retweet_count": 0,
+	"metadata": {
+		"iso_language_code": "en",
+		"result_type": "recent"
+	},
+	"favorited": false,
+	"user": {
+		"follow_request_sent": null,
+		"has_extended_profile": false,
+		"profile_use_background_image": false,
+		"id": 2553216440,
+		"verified": false,
+		"translator_type": "none",
+		"profile_text_color": "333333",
+		"profile_image_url_https": "https://pbs.twimg.com/profile_images/706530511515156480/BP9lfnYd_normal.jpg",
+		"profile_sidebar_fill_color": "DDEEF6",
+		"entities": {
+			"url": {
+				"urls": [{
+						"indices": [0, 23],
+						"url": "https://t.co/CcHq6ydnl3",
+						"expanded_url": "http://toplocalnow.com/united-states/florida/miami",
+						"display_url": "toplocalnow.com/united-states/\u2026"
+					}
+				]
+			},
+			"description": {
+				"urls": []
+			}
+		},
+		"followers_count": 802,
+		"protected": false,
+		"location": "Miami, FL",
+		"default_profile_image": false,
+		"id_str": "2553216440",
+		"lang": "en",
+		"utc_offset": null,
+		"statuses_count": 85743,
+		"description": "Breaking news and weather updates from Miami.",
+		"friends_count": 12,
+		"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+		"profile_link_color": "465AA5",
+		"profile_image_url": "http://pbs.twimg.com/profile_images/706530511515156480/BP9lfnYd_normal.jpg",
+		"following": null,
+		"geo_enabled": true,
+		"profile_background_color": "FFFFFF",
+		"profile_banner_url": "https://pbs.twimg.com/profile_banners/2553216440/1457285122",
+		"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+		"screen_name": "MiamiCP",
+		"is_translation_enabled": false,
+		"profile_background_tile": false,
+		"favourites_count": 0,
+		"name": "Miami Now",
+		"notifications": null,
+		"url": "https://t.co/CcHq6ydnl3",
+		"created_at": "Sat Jun 07 20:03:44 +0000 2014",
+		"contributors_enabled": false,
+		"time_zone": null,
+		"profile_sidebar_border_color": "000000",
+		"default_profile": false,
+		"is_translator": false,
+		"listed_count": 68
+	},
+	"geo": {
+		"type": "Point",
+		"coordinates": [25.78111669, -80.19240081]
+	},
+	"in_reply_to_user_id_str": null,
+	"possibly_sensitive": false,
+	"lang": "en",
+	"created_at": "Tue Jan 31 03:55:35 +0000 2017",
+	"in_reply_to_status_id_str": null,
+	"place": {
+		"country_code": "US",
+		"url": "https://api.twitter.com/1.1/geo/id/04cb31bae3b3af93.json",
+		"country": "United States",
+		"place_type": "city",
+		"bounding_box": {
+			"type": "Polygon",
+			"coordinates": [[[-80.321683, 25.7090404], [-80.144974, 25.7090404], [-80.144974, 25.855667], [-80.321683, 25.855667]]]
+		},
+		"contained_within": [],
+		"full_name": "Miami, FL",
+		"attributes": {},
+		"id": "04cb31bae3b3af93",
+		"name": "Miami"
+	}
+}{
+	"contributors": null,
+	"truncated": false,
+	"text": "Maryland boy, U.S. citizen captures attention after being ensnared by Donald J. Trump travel ban. https://t.co/AodNamRGDW",
+	"is_quote_status": false,
+	"in_reply_to_status_id": null,
+	"in_reply_to_user_id": null,
+	"id": 826277387608285186,
+	"favorite_count": 0,
+	"entities": {
+		"symbols": [],
+		"user_mentions": [],
+		"hashtags": [],
+		"urls": [{
+				"indices": [98, 121],
+				"url": "https://t.co/AodNamRGDW",
+				"expanded_url": "http://bsun.md/2jNBG5v",
+				"display_url": "bsun.md/2jNBG5v"
+			}
+		]
+	},
+	"retweeted": false,
+	"coordinates": {
+		"type": "Point",
+		"coordinates": [-76.6155346, 39.30190319]
+	},
+	"source": "<a href=\"https://dlvrit.com/\" rel=\"nofollow\">dlvr.it</a>",
+	"in_reply_to_screen_name": null,
+	"id_str": "826277387608285186",
+	"retweet_count": 0,
+	"metadata": {
+		"iso_language_code": "en",
+		"result_type": "recent"
+	},
+	"favorited": false,
+	"user": {
+		"follow_request_sent": null,
+		"has_extended_profile": false,
+		"profile_use_background_image": false,
+		"id": 66179557,
+		"verified": false,
+		"translator_type": "none",
+		"profile_text_color": "2A2C31",
+		"profile_image_url_https": "https://pbs.twimg.com/profile_images/706524395104133120/8o-AggCr_normal.jpg",
+		"profile_sidebar_fill_color": "FFFFFF",
+		"entities": {
+			"url": {
+				"urls": [{
+						"indices": [0, 23],
+						"url": "https://t.co/2lQsKJED7w",
+						"expanded_url": "http://toplocalnow.com/united-states/maryland/baltimore",
+						"display_url": "toplocalnow.com/united-states/\u2026"
+					}
+				]
+			},
+			"description": {
+				"urls": []
+			}
+		},
+		"followers_count": 3140,
+		"protected": false,
+		"location": "Baltimore, MD",
+		"default_profile_image": false,
+		"id_str": "66179557",
+		"lang": "en",
+		"utc_offset": -18000,
+		"statuses_count": 225225,
+		"description": "Breaking news and weather updates from Baltimore.",
+		"friends_count": 38,
+		"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+		"profile_link_color": "465AA5",
+		"profile_image_url": "http://pbs.twimg.com/profile_images/706524395104133120/8o-AggCr_normal.jpg",
+		"following": null,
+		"geo_enabled": true,
+		"profile_background_color": "FFFFFF",
+		"profile_banner_url": "https://pbs.twimg.com/profile_banners/66179557/1457283505",
+		"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+		"screen_name": "BaltimoreCP",
+		"is_translation_enabled": false,
+		"profile_background_tile": false,
+		"favourites_count": 1,
+		"name": "Baltimore Now",
+		"notifications": null,
+		"url": "https://t.co/2lQsKJED7w",
+		"created_at": "Sun Aug 16 19:52:30 +0000 2009",
+		"contributors_enabled": false,
+		"time_zone": "Eastern Time (US & Canada)",
+		"profile_sidebar_border_color": "FFFFFF",
+		"default_profile": false,
+		"is_translator": false,
+		"listed_count": 173
+	},
+	"geo": {
+		"type": "Point",
+		"coordinates": [39.30190319, -76.6155346]
+	},
+	"in_reply_to_user_id_str": null,
+	"possibly_sensitive": false,
+	"lang": "en",
+	"created_at": "Tue Jan 31 03:54:15 +0000 2017",
+	"in_reply_to_status_id_str": null,
+	"place": {
+		"country_code": "US",
+		"url": "https://api.twitter.com/1.1/geo/id/c0b8e8dc81930292.json",
+		"country": "United States",
+		"place_type": "city",
+		"bounding_box": {
+			"type": "Polygon",
+			"coordinates": [[[-76.7115205, 39.197211], [-76.529443, 39.197211], [-76.529443, 39.372215], [-76.7115205, 39.372215]]]
+		},
+		"contained_within": [],
+		"full_name": "Baltimore, MD",
+		"attributes": {},
+		"id": "c0b8e8dc81930292",
+		"name": "Baltimore"
+	}
+}{
+	"contributors": null,
+	"truncated": false,
+	"text": "Kyle Lowry slams Donald Trump's travel ban https://t.co/lRQhTyybgr",
+	"is_quote_status": false,
+	"in_reply_to_status_id": null,
+	"in_reply_to_user_id": null,
+	"id": 826272574778716160,
+	"favorite_count": 1,
+	"entities": {
+		"symbols": [],
+		"user_mentions": [],
+		"hashtags": [],
+		"urls": [{
+				"indices": [43, 66],
+				"url": "https://t.co/lRQhTyybgr",
+				"expanded_url": "http://bit.ly/2kIKHeG",
+				"display_url": "bit.ly/2kIKHeG"
+			}
+		]
+	},
+	"retweeted": false,
+	"coordinates": {
+		"type": "Point",
+		"coordinates": [-79.37536382, 43.64842391]
+	},
+	"source": "<a href=\"https://dlvrit.com/\" rel=\"nofollow\">dlvr.it</a>",
+	"in_reply_to_screen_name": null,
+	"id_str": "826272574778716160",
+	"retweet_count": 0,
+	"metadata": {
+		"iso_language_code": "en",
+		"result_type": "recent"
+	},
+	"favorited": false,
+	"user": {
+		"follow_request_sent": null,
+		"has_extended_profile": false,
+		"profile_use_background_image": false,
+		"id": 53969028,
+		"verified": false,
+		"translator_type": "none",
+		"profile_text_color": "2A2C31",
+		"profile_image_url_https": "https://pbs.twimg.com/profile_images/542864129778671616/IrynYPQj_normal.png",
+		"profile_sidebar_fill_color": "FFFFFF",
+		"entities": {
+			"url": {
+				"urls": [{
+						"indices": [0, 22],
+						"url": "http://t.co/bPWF8l40Zm",
+						"expanded_url": "http://toronto.cityandpress.com/",
+						"display_url": "toronto.cityandpress.com"
+					}
+				]
+			},
+			"description": {
+				"urls": []
+			}
+		},
+		"followers_count": 4939,
+		"protected": false,
+		"location": "Toronto, ON",
+		"default_profile_image": false,
+		"id_str": "53969028",
+		"lang": "en",
+		"utc_offset": -18000,
+		"statuses_count": 275243,
+		"description": "Latest news from Toronto. Updates are frequent.",
+		"friends_count": 21,
+		"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+		"profile_link_color": "8A1C3B",
+		"profile_image_url": "http://pbs.twimg.com/profile_images/542864129778671616/IrynYPQj_normal.png",
+		"following": null,
+		"geo_enabled": true,
+		"profile_background_color": "FFFFFF",
+		"profile_banner_url": "https://pbs.twimg.com/profile_banners/53969028/1418263908",
+		"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+		"screen_name": "Toronto_CP",
+		"is_translation_enabled": false,
+		"profile_background_tile": false,
+		"favourites_count": 3,
+		"name": "Toronto Press",
+		"notifications": null,
+		"url": "http://t.co/bPWF8l40Zm",
+		"created_at": "Sun Jul 05 18:25:33 +0000 2009",
+		"contributors_enabled": false,
+		"time_zone": "Eastern Time (US & Canada)",
+		"profile_sidebar_border_color": "FFFFFF",
+		"default_profile": false,
+		"is_translator": false,
+		"listed_count": 262
+	},
+	"geo": {
+		"type": "Point",
+		"coordinates": [43.64842391, -79.37536382]
+	},
+	"in_reply_to_user_id_str": null,
+	"possibly_sensitive": false,
+	"lang": "en",
+	"created_at": "Tue Jan 31 03:35:07 +0000 2017",
+	"in_reply_to_status_id_str": null,
+	"place": {
+		"country_code": "CA",
+		"url": "https://api.twitter.com/1.1/geo/id/3797791ff9c0e4c6.json",
+		"country": "Canada",
+		"place_type": "city",
+		"bounding_box": {
+			"type": "Polygon",
+			"coordinates": [[[-79.639319, 43.403221], [-78.90582, 43.403221], [-78.90582, 43.855401], [-79.639319, 43.855401]]]
+		},
+		"contained_within": [],
+		"full_name": "Toronto, Ontario",
+		"attributes": {},
+		"id": "3797791ff9c0e4c6",
+		"name": "Toronto"
+	}
+}{
+	"contributors": null,
+	"truncated": false,
+	"text": "Down with Donald Trump's bullshit https://t.co/EvNUqc7oDX",
+	"is_quote_status": false,
+	"in_reply_to_status_id": null,
+	"in_reply_to_user_id": null,
+	"id": 826268312526925824,
+	"favorite_count": 1,
+	"entities": {
+		"symbols": [],
+		"user_mentions": [],
+		"hashtags": [],
+		"urls": [{
+				"indices": [34, 57],
+				"url": "https://t.co/EvNUqc7oDX",
+				"expanded_url": "http://torontoist.com/2017/01/kyle-lowry-donald-trump-bullshit/",
+				"display_url": "torontoist.com/2017/01/kyle-l\u2026"
+			}
+		]
+	},
+	"retweeted": false,
+	"coordinates": {
+		"type": "Point",
+		"coordinates": [-79.37536382, 43.64842391]
+	},
+	"source": "<a href=\"https://dlvrit.com/\" rel=\"nofollow\">dlvr.it</a>",
+	"in_reply_to_screen_name": null,
+	"id_str": "826268312526925824",
+	"retweet_count": 0,
+	"metadata": {
+		"iso_language_code": "en",
+		"result_type": "recent"
+	},
+	"favorited": false,
+	"user": {
+		"follow_request_sent": null,
+		"has_extended_profile": false,
+		"profile_use_background_image": false,
+		"id": 53969028,
+		"verified": false,
+		"translator_type": "none",
+		"profile_text_color": "2A2C31",
+		"profile_image_url_https": "https://pbs.twimg.com/profile_images/542864129778671616/IrynYPQj_normal.png",
+		"profile_sidebar_fill_color": "FFFFFF",
+		"entities": {
+			"url": {
+				"urls": [{
+						"indices": [0, 22],
+						"url": "http://t.co/bPWF8l40Zm",
+						"expanded_url": "http://toronto.cityandpress.com/",
+						"display_url": "toronto.cityandpress.com"
+					}
+				]
+			},
+			"description": {
+				"urls": []
+			}
+		},
+		"followers_count": 4939,
+		"protected": false,
+		"location": "Toronto, ON",
+		"default_profile_image": false,
+		"id_str": "53969028",
+		"lang": "en",
+		"utc_offset": -18000,
+		"statuses_count": 275243,
+		"description": "Latest news from Toronto. Updates are frequent.",
+		"friends_count": 21,
+		"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+		"profile_link_color": "8A1C3B",
+		"profile_image_url": "http://pbs.twimg.com/profile_images/542864129778671616/IrynYPQj_normal.png",
+		"following": null,
+		"geo_enabled": true,
+		"profile_background_color": "FFFFFF",
+		"profile_banner_url": "https://pbs.twimg.com/profile_banners/53969028/1418263908",
+		"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+		"screen_name": "Toronto_CP",
+		"is_translation_enabled": false,
+		"profile_background_tile": false,
+		"favourites_count": 3,
+		"name": "Toronto Press",
+		"notifications": null,
+		"url": "http://t.co/bPWF8l40Zm",
+		"created_at": "Sun Jul 05 18:25:33 +0000 2009",
+		"contributors_enabled": false,
+		"time_zone": "Eastern Time (US & Canada)",
+		"profile_sidebar_border_color": "FFFFFF",
+		"default_profile": false,
+		"is_translator": false,
+		"listed_count": 262
+	},
+	"geo": {
+		"type": "Point",
+		"coordinates": [43.64842391, -79.37536382]
+	},
+	"in_reply_to_user_id_str": null,
+	"possibly_sensitive": false,
+	"lang": "en",
+	"created_at": "Tue Jan 31 03:18:11 +0000 2017",
+	"in_reply_to_status_id_str": null,
+	"place": {
+		"country_code": "CA",
+		"url": "https://api.twitter.com/1.1/geo/id/3797791ff9c0e4c6.json",
+		"country": "Canada",
+		"place_type": "city",
+		"bounding_box": {
+			"type": "Polygon",
+			"coordinates": [[[-79.639319, 43.403221], [-78.90582, 43.403221], [-78.90582, 43.855401], [-79.639319, 43.855401]]]
+		},
+		"contained_within": [],
+		"full_name": "Toronto, Ontario",
+		"attributes": {},
+		"id": "3797791ff9c0e4c6",
+		"name": "Toronto"
+	}
+}
