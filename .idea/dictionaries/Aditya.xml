@@ -3,6 +3,7 @@
     <words>
       <w>tfidf</w>
       <w>vectorizer</w>
+      <w>wordcloud</w>
     </words>
   </dictionary>
 </component>
